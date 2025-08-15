@@ -21,7 +21,7 @@ from fastmcp import FastMCP
 import pandas as pd
 from pathlib import Path
 
-mcp = FastMCP("data-analytics-server")
+mcp = FastMCP("from-chaos-to-cube-server")
 
 @mcp.tool()
 def read_csv(file_path: str) -> str:
